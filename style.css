@@ -9,7 +9,9 @@ body {
 
 body > *
 {
-	padding: 0 300px;
+	--body-padding: 300px;
+	padding: 0 var(--body-padding);
+
 }
 
 #hero {
@@ -110,4 +112,16 @@ nav .items a {
 	border: 5px #3882F6;
 	border-radius: 15px;
 	border-style: solid;
+}
+
+#quote {
+	background-color: #E5E7EB;
+	padding: 100px calc(var(--body-padding) + 150px);
+}
+
+#quote .text-content {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
 }
