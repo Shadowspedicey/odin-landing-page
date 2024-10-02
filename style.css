@@ -9,7 +9,7 @@ body {
 
 body > *
 {
-	--body-padding: 300px;
+	--body-padding: 20%;
 	padding: 0 var(--body-padding);
 
 }
@@ -112,7 +112,7 @@ nav .items a {
 
 #quote {
 	background-color: #E5E7EB;
-	padding: 100px calc(var(--body-padding) + 150px);
+	padding: 100px calc(var(--body-padding) + 5%);
 }
 
 #quote .text-content {
@@ -127,7 +127,7 @@ nav .items a {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #3882F6;
-	padding: 50px 200px;
+	padding: 50px 5%;
 	margin: 100px var(--body-padding);
 	border-radius: 10px;
 }
