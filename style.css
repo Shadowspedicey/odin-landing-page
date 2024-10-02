@@ -4,11 +4,12 @@
 
 body {
 	margin: 0;
+	font-family: "Roboto";
 }
 
 body > *
 {
-	padding: 0 160px;
+	padding: 0 300px;
 }
 
 #hero {
@@ -36,4 +37,45 @@ nav .items a {
 	font-size: 18px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+#hero .main-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	padding: 150px 0;
+}
+
+#hero .main-content > * {
+	flex: 1 0 400px;
+}
+
+#hero img {
+	height: auto;
+	width: 100%;
+}
+
+#hero .text-content {
+
+}
+
+#hero .text-content h2 {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: 900;
+}
+
+#hero .text-content p {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+#hero .text-content button {
+	background-color: #3882F6;
+	color: white;
+	font-size: 22.5px;
+	font-weight: bold;
+	padding: 10px 40px;
+	border: none;
+	border-radius: 10px;
 }
