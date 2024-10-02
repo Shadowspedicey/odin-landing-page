@@ -146,3 +146,10 @@ nav .items a {
 	border: 2px white solid;
 	border-radius: 10px;
 }
+
+footer {
+	background-color: #1F2937;
+	color: whitesmoke;
+	text-align: center;
+	padding: 40px 0;
+}
